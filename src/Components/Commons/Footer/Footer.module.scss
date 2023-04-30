@@ -1,0 +1,50 @@
+@import '../../../assets/style/main.scss';
+
+.footer {
+  background-color: $footer-color-grey;
+  // margin-top: auto;
+
+  // margin: 0 auto;
+  // width: 100%;
+  margin-top: 100px;
+  padding-top: 37px;
+  padding-bottom: 33px;
+  
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.items {
+  display: flex;
+  justify-content: start;
+}
+
+.item_1 {
+  width: calc(100% - (1140px - 648px));
+  margin-right: 60px;
+  span {
+    font-weight: 600;
+  }
+  p {
+    margin-top: 22px;
+  }
+}
+
+.item_2 {
+  margin-right: 130px;
+  span {
+    font-weight: 600;
+  }
+  p{
+    margin-top: 22px;
+  }
+}
+
+.item_3 {
+  p:not(:first-child) {
+    padding-top: 22px;
+  }
+}

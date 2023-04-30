@@ -1,0 +1,7 @@
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 140px 1fr auto;
+  height: 100%;
+  overflow: hidden;  // Для избежания горизонтального скролла
+}

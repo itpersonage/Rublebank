@@ -1,0 +1,53 @@
+@import "../../../assets/style/main.scss";
+
+.main_banner {
+  margin: 0 auto;
+  width: auto;
+  box-shadow: 0px 12px 20px -10px $border-color-grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  img {
+    margin-top: 2px;
+  }
+}
+
+.main_banner_left {
+  margin-top: 96px;
+  h1 {
+    font-size: 52px;
+    span {
+      color: $main-color;
+    }
+  }
+}
+
+.main_banner_btn {
+  margin-top: 63px;
+  a {
+    button {
+      width: 220px;
+      height: 55px;
+      color: $main-color;
+      background-color: white;
+      border: 1px solid $main-color;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      box-shadow: 4px 4px 30px 10px $border-color-grey;
+    }
+  }
+  a:not(:last-child) {
+    button {
+      margin-right: 37px;
+      background-color: $main-color;
+      color: white;
+      border-radius: 4px;
+    }
+  }
+}
