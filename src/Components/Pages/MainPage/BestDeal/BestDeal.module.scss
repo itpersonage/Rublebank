@@ -1,0 +1,23 @@
+@import "../../../../assets/style/main.scss";
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  h1 {
+    margin-top: 59px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgb(159, 159, 159);
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.best_deal_items {
+  display: grid;
+  column-gap: 31px;
+  row-gap: 62px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
+}

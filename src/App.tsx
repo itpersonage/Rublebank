@@ -1,12 +1,12 @@
 import React from "react";
 // import styles from "./App.module.scss";
-import { Layout } from "./Layouts";
-import { MainPage } from "./Containers/MainPage";
+import { Layout } from "./Components/Commons/Layouts";
+import { MainContainer } from "./Containers/MainContainer";
 
 function App() {
   return (
     <Layout>
-      <MainPage />
+      <MainContainer />
     </Layout>
   );
 }
