@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Cards.module.scss";
+import { Link } from "react-router-dom";
 
 export const Cards = () => {
   return (
@@ -16,10 +17,52 @@ export const Cards = () => {
             <div className={style.card_60_bottom_offer}>
               <div className={style.card_60_bottom_offer_item}>
                 <h1>500 000 ₽</h1>
-                <p>лимит <br /> по карте</p>
+                <div className={style.card_60_offer_item_border}></div>
+                <p>
+                  лимит <br /> по карте
+                </p>
+              </div>
+              <div className={style.card_60_bottom_offer_item}>
+                <h1>от 12%</h1>
+                <div className={style.card_60_offer_item_border}></div>
+                <p>
+                  ставка <br /> по карте
+                </p>
+              </div>
+              <div className={style.card_60_bottom_offer_item}>
+                <h1>1 день</h1>
+                <div className={style.card_60_offer_item_border}></div>
+                <p>
+                  решение <br /> по заявке
+                </p>
               </div>
             </div>
-            <div className={style.card_60_bottom_btn}></div>
+          </div>
+          <div className={style.card_60_btn}>
+            <Link to="/Design">
+              <button>Оформить карту</button>
+            </Link>
+            <Link to="/More">
+              <button>Подробнее</button>
+            </Link>
+          </div>
+        </div>
+        <div className={style.block_cards_right}>
+          <div>
+            <h1>
+              Кредитные <br /> карты
+            </h1>
+            <Link to="Credit_card">
+              <img src="./images/arrow_cards.png" alt="Credit_card" />
+            </Link>
+          </div>
+          <div>
+            <h1>
+              Дебетовые <br /> карты
+            </h1>
+            <Link to="Debet_card">
+              <img src="./images/arrow_cards.png" alt="Debet_card" />
+            </Link>
           </div>
         </div>
       </div>

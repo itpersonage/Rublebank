@@ -2,11 +2,11 @@
 
 .cards {
   margin-top: 114px;
-  margin-bottom: 66px;
   background-color: $footer-color-grey;
 }
 
 .container {
+  display: flex;
   margin: 0 auto;
   max-width: 1140px;
   padding-top: 145px;
@@ -16,12 +16,15 @@
 .card_60 {
   background-color: #e0e5ea;
   padding-left: 99px;
+  width: 750px;
+  margin-right: 31px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px -10px #dedede;
 }
 
 .card_60_top {
   display: flex;
-  height: 500px;
-  width: 750px;
+  margin-bottom: 16px;
 
   h1 {
     margin-top: 34px;
@@ -32,5 +35,84 @@
   img {
     height: 250px;
     width: 262px;
+  }
+}
+
+.card_60_bottom_offer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-right: 104px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.card_60_offer_item_border {
+  height: 1px;
+  width: 157px;
+  background-color: $main-color;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.card_60_btn {
+  margin-top: 63px;
+  a {
+    button {
+      width: 220px;
+      height: 55px;
+      color: $main-color;
+      background-color: white;
+      border: 1px solid $main-color;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      box-shadow: 4px 4px 30px 10px $border-color-grey;
+    }
+  }
+  a:not(:last-child) {
+    button {
+      margin-right: 37px;
+      background-color: $main-color;
+      color: white;
+      // border-radius: 4px;
+    }
+  }
+}
+
+.block_cards_right {
+  div {
+    position: relative;
+    width: 360px;
+    height: 235px;
+    padding-top: 34px;
+    padding-left: 34px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 25px 4px #dedede;
+    border-bottom: 5px solid $main-color;
+  }
+
+  div:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  img{
+    position: absolute;
+    right: 34px;
+    bottom: 34px;
   }
 }
