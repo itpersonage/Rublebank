@@ -2,6 +2,7 @@ import React from "react";
 import { MainBanner } from "./MainBanner";
 import { BestDeal } from "./BestDeal";
 import { Cards } from "./Cards";
+import { GetCard } from "./GetCard";
 
 type TcardsData = {
   cardsData: {
@@ -18,6 +19,7 @@ export const MainPage = ({ cardsData }: TcardsData) => {
       <MainBanner />
       <BestDeal cardsData={cardsData} />
       <Cards />
+      <GetCard /> 
     </div>
   );
 };

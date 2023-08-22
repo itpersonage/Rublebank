@@ -1,0 +1,25 @@
+@import './../../../../assets/style/main.scss';
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-left: 31px;
+}
+
+.getCard_items {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 169px;
+    margin-top: 70px;
+    margin-right: 98px;
+    text-align: center;
+
+    p {
+        margin-top: 23px;
+    }
+}
+
+.svg_arrow {
+    margin-top: 64px;
+}
