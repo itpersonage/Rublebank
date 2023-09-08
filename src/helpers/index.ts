@@ -27,3 +27,26 @@ export const cardsData = [
     alt: "partnership_programs",
   },
 ];
+
+export const debetCardData = [
+  {
+    h1: "Рублькарта",
+    p: "Моментальный выпуск Бесплатное обслуживание Кешбэк до 2%",
+    image: "./images/DebetCards/rublecard.png",
+    alt: "rublecard",
+  },
+
+  {
+    h1: "Travel карта",
+    p: "Скидки до 20% на отели Бесплатное обслуживание Кешбэк до 11%",
+    image: "./images/DebetCards/travelcard.png",
+    alt: "travelcard",
+  },
+
+  {
+    h1: "Суперкарта",
+    p: "Моментальный выпуск Индивидуальный дизайн Премиальные опции",
+    image: "./images/DebetCards/supercard.png",
+    alt: "supercard",
+  },
+];
