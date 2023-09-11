@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Cards.module.scss";
 import { Link } from "react-router-dom";
+import { Button } from "../../../Commons/Button";
 
 export const Cards = () => {
   return (
@@ -39,11 +40,11 @@ export const Cards = () => {
             </div>
           </div>
           <div className={style.card_60_btn}>
-            <Link to="/Design">
-              <button>Оформить карту</button>
+            <Link to="/Card60_design">
+              <Button title="Оформить карту" />
             </Link>
-            <Link to="/More">
-              <button>Подробнее</button>
+            <Link to="/Card60_more">
+              <Button title="Подробнее" />
             </Link>
           </div>
         </div>

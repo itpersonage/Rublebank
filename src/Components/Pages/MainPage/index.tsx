@@ -19,7 +19,7 @@ export const MainPage = ({ cardsData }: TcardsData) => {
       <MainBanner />
       <BestDeal cardsData={cardsData} />
       <Cards />
-      <GetCard /> 
+      <GetCard />
     </div>
   );
 };

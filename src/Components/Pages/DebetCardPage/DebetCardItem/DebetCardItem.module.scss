@@ -3,7 +3,6 @@
 .debet_card_item {
   display: flex;
   width: 1140px;
-  height: 402px;
   margin-bottom: 70px;
   background-color: $footer-color-grey;
   box-shadow: 0px 12px 20px -10px #dedede;
@@ -12,19 +11,27 @@
   h1 {
     font-size: 32px;
     font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 43px;
   }
 
   p {
     width: 290px;
     font-size: 20px;
     line-height: 2;
+    margin-bottom: 42px;
   }
 }
 
 .debet_card_item_btn {
   display: flex;
-}
+  margin-bottom: 50px;
 
-.btn {
-  padding-right: 5px;
+  a:not(:last-child) {
+    button {
+      margin-right: 37px;
+      background-color: $main-color;
+      color: white;
+    }
+  }
 }

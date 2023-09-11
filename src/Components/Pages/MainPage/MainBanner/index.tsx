@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./MainBanner.module.scss";
 import { Link } from "react-router-dom";
+import { Button } from "../../../Commons/Button";
 
 export const MainBanner = () => {
   return (
@@ -11,8 +12,12 @@ export const MainBanner = () => {
             Кредит <br /> <span>на любые</span> цели
           </h1>
           <div className={style.main_banner_btn}>
-            <Link to='/GetLoan'><button>Получить кредит</button></Link>
-            <Link to='/More'><button>Подробнее</button></Link>
+            <Link to="/GetLoan">
+              <Button title="Получить кредит" />
+            </Link>
+            <Link to="/More">
+              <Button title="Подробнее" />
+            </Link>
           </div>
         </div>
         <img src="/images/MainBanner.jpg" alt="MainBanner" />

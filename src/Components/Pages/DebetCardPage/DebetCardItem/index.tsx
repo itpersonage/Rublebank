@@ -18,10 +18,10 @@ export const DebetCardItem = ({ h1, p, image, alt }: TdebetCardItem) => {
         <h1>{h1}</h1>
         <p>{p}</p>
         <div className={style.debet_card_item_btn}>
-          <Link to="/Debet_card" className={style.btn}>
+          <Link to="/Debet_card_design" className={style.btn}>
             <Button title="Оформить карту" />
           </Link>
-          <Link to="/Debet_card" className={style.btn}>
+          <Link to="/Debet_card_more" className={style.btn}>
             <Button title="Подробнее" />
           </Link>
         </div>
