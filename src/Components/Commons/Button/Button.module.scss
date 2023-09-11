@@ -1,0 +1,21 @@
+@import "./../../../assets/style/main.scss";
+
+.btn {
+  width: 220px;
+  height: 55px;
+  color: $main-color;
+  background-color: white;
+  border: 1px solid $main-color;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 4px 4px 30px 10px $border-color-grey;
+}
+
+.btn:not(:last-child) {
+  margin-right: 37px;
+  background-color: $main-color;
+  color: white;
+  border-radius: 4px;
+}
