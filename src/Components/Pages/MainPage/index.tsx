@@ -6,6 +6,7 @@ import { GetCard } from "./GetCard";
 
 type TcardsData = {
   cardsData: {
+    id: number,
     h1: string;
     p: string;
     image: string;

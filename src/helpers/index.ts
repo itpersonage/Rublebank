@@ -1,5 +1,6 @@
 export const cardsData = [
   {
+    id: 1,
     h1: "Лучшие предложения в Рубльбанке",
     p: "Банковские продукты для комфортной жизни",
     image: "./images/mortgage_insurance.png",
@@ -7,6 +8,7 @@ export const cardsData = [
   },
 
   {
+    id: 2,
     h1: "Накопительные счета",
     p: "Ставки от 7,5% Снятие в любое время",
     image: "./images/savings_accounts.png",
@@ -14,6 +16,7 @@ export const cardsData = [
   },
 
   {
+    id: 3,
     h1: "Персональные карты",
     p: "Карта с эксклюзивным дизайном для постоянных клиентов",
     image: "./images/personal_cards.png",
@@ -21,6 +24,7 @@ export const cardsData = [
   },
 
   {
+    id: 4,
     h1: "Партнерские программы",
     p: "Выгодные условия для путешествий и покупок",
     image: "./images/partnership_programs.png",
@@ -30,6 +34,7 @@ export const cardsData = [
 
 export const debetCardData = [
   {
+    id: 1,
     h1: "Рублькарта",
     p: "Моментальный выпуск Бесплатное обслуживание Кешбэк до 2%",
     image: "./images/DebetCards/rublecard.png",
@@ -37,6 +42,7 @@ export const debetCardData = [
   },
 
   {
+    id: 2,
     h1: "Travel карта",
     p: "Скидки до 20% на отели Бесплатное обслуживание Кешбэк до 11%",
     image: "./images/DebetCards/travelcard.png",
@@ -44,6 +50,7 @@ export const debetCardData = [
   },
 
   {
+    id: 3,
     h1: "Суперкарта",
     p: "Моментальный выпуск Индивидуальный дизайн Премиальные опции",
     image: "./images/DebetCards/supercard.png",

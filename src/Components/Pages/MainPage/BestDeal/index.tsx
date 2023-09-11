@@ -4,6 +4,7 @@ import { BestDealCard } from "./BestDealCard";
 
 type TcardsData = {
   cardsData: {
+    id: number,
     h1: string;
     p: string;
     image: string;
@@ -19,7 +20,7 @@ export const BestDeal = ({ cardsData }: TcardsData) => {
         <p>Банковские продукты для комфортной жизни</p>
         <div className={style.best_deal_items}>
         {cardsData.map((el) => (
-        <BestDealCard h1={el.h1} p={el.p} image={el.image} alt={el.alt} />
+        <BestDealCard key={el.id} h1={el.h1} p={el.p} image={el.image} alt={el.alt} />
       ))}
         </div>
       </div>

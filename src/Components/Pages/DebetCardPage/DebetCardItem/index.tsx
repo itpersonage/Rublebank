@@ -4,6 +4,7 @@ import { Button } from "../../../Commons/Button";
 import { Link } from "react-router-dom";
 
 type TdebetCardItem = {
+  key?: number,
   h1: string;
   p: string;
   image: string;
